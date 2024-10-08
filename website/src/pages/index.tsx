@@ -27,6 +27,7 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 function HeroBanner() {
   return (
     <div className={styles.hero} data-theme="dark">
+      <div></div>
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <img
